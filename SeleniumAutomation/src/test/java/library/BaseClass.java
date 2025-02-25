@@ -17,7 +17,7 @@ public class BaseClass {
 	public void initializeBrowser() throws IOException {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); //maximize the screen
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(UtilityClass.readPFData("url"));
 	}
