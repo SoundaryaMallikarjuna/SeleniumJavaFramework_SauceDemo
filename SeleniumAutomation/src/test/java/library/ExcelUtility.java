@@ -3,7 +3,6 @@ package library;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -37,13 +36,11 @@ public class ExcelUtility {
 			}
 		}	
 		
-		Object data1[][]= ex.singleRow("loginCredentials");
-		
+		Object data1[][]= ex.singleRow("checkoutInfoData");
 		for(int j=0;j<data1[0].length;j++)
 		{
 			System.out.println(data1[0][j]);
-		}
-	
+		}	
 	}
 	
 	public int getRowCount(String sheetName) throws IOException {
@@ -86,18 +83,18 @@ public class ExcelUtility {
 	public Object[][] singleRow(String sheet) throws IOException
 	{
 		int rowNum=1;
+		int j;
 		int cellNum= getCellCount(sheet, rowNum);
 		Object data[][]= new String[rowNum][cellNum]; //data[5][3]
 		
-			for(int j=0;j<cellNum;j++)
+			for(j=0;j<cellNum;j++)
 			{
 				data[0][j]=getCellData(sheet,rowNum,j);
-				//data[0][0]=valid, standard_user, secret_sauce, link
+				
 			}
 			workbook.close();
-		
-		return data;		
-	}
+			return data;
+}
 
 	public String getCellData(String sheetName, int rownum, int colnum) throws IOException {
 		fip = new FileInputStream(path);

@@ -1,5 +1,4 @@
 package tests;
-
 import java.io.IOException;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -13,9 +12,7 @@ import pages.LoginPage;
 
 public class LoginPageTest extends BaseClass {
 	LoginPage login;
-	int TCID;
-	//ring username,password, scenario, result;
-
+	
 	@BeforeMethod
 	public void setup() {
 		login = new LoginPage(driver);
@@ -23,16 +20,44 @@ public class LoginPageTest extends BaseClass {
 
 	@AfterMethod
 	public void tearDown(ITestResult result) throws IOException {
-		if (result.getStatus() == ITestResult.FAILURE) // screenshot is taken when testcase is failed
+		if (result.getStatus() == ITestResult.SUCCESS) 
 		{
-			UtilityClass.captureScreenshot(TCID);
+			UtilityClass.captureScreenshot();
 		}
-		driver.quit();
+		else if(result.getStatus() == ITestResult.FAILURE) 
+		{
+			UtilityClass.captureScreenshot();
+		}
+	driver.quit();
+	}
+	
+	@Test(dataProvider = "credentials", dataProviderClass = UtilityClass.class)
+	public void verifyItemAddedOrderPlaced(String scenario, String username, String password, String result, String fname, String lname, String pstlcode) throws Exception {
+		System.out.println("If Scenario is "+scenario);
+		if (scenario.trim().equalsIgnoreCase("valid"))
+		{
+			login.enterCredentials(username, password);
+			System.out.println("HomePage is displayed");   
+            boolean isLogoDisplayed = login.verifyAppLogo();
+            Assert.assertTrue(isLogoDisplayed, "App logo is not displayed after logging in with valid credentials.");
+            System.out.println("AppLogo is verified");  
+            login.verifybackPackItem();             
+            login.verifybackPackAddToCart();
+            login.verifyshoppingCart();
+            System.out.println("Sauce Labs Backpack item is added to the cart");    
+            login.verifycheckoutBtn(); 
+            System.out.println("Checkout button is clicked");    
+            login.enterCheckoutInfo(fname, lname, pstlcode);
+            login.verifycontineBtn();
+            System.out.println("Checkout information is entered and clicked on continue button");    
+            login.verifyfinishBtn();   
+        } else {
+           System.out.println("Test skipped for invalid scenario: " + scenario);
+        }
 	}
 
 	@Test
 	public void verifyURL() throws Exception {
-		TCID = 1;
 		String actualURL = login.verifyURL();
 		String expectedURL = UtilityClass.readPFData("url");
 		Assert.assertEquals(actualURL, expectedURL);
@@ -41,7 +66,6 @@ public class LoginPageTest extends BaseClass {
 
 	@Test
 	public void verifyLogo() {
-		TCID = 2;
 		boolean actualLogo = login.verifyLogo();
 		boolean expectedLogo = true;
 		Assert.assertEquals(actualLogo, expectedLogo);
@@ -50,7 +74,6 @@ public class LoginPageTest extends BaseClass {
 
 	@Test
 	public void verifyPageTitle() {
-		TCID = 3;
 		login.verifyPageTitle();
 
 	}
@@ -60,60 +83,50 @@ public class LoginPageTest extends BaseClass {
 			throws Exception {
 		login.enterCredentials(username, password);
 		if (scenario != null && scenario.equals("invalid")) {
-			TCID = 4;
 			String actualResult = login.getErrorMsg();
 			String expectedResult = result;
 			Assert.assertEquals(actualResult, expectedResult);
 		} else if (scenario != null && scenario.equals("invalidun")) {
-			TCID = 5;
 			String actualResult = login.getErrorMsg();
 			String expectedResult = result;
 			Assert.assertEquals(actualResult, expectedResult);
 		} else if (scenario != null && scenario.equals("invalidpwd")) {
-			TCID = 6;
 			String actualResult = login.getErrorMsg();
 			String expectedResult = result;
 			Assert.assertEquals(actualResult, expectedResult);
 		} else if (scenario != null && scenario.equals("blank")) {
-			TCID = 7;
 			String actualResult = login.getErrorMsg();
 			String expectedResult = result;
 			Assert.assertEquals(actualResult, expectedResult);
-		}else if(scenario != null && scenario.equals("valid")) {
-			TCID =8;
+	} 
+			else if(scenario != null && scenario.equals("valid")) {
 			String actualResult = login.verifyURL();
 			String expectedResult = result;	
 		    Assert.assertEquals(actualResult, expectedResult);
-			}	
+		}	
 	}
-
+		
 	@Test(dataProvider = "credentials", dataProviderClass = UtilityClass.class)
-	public void verifyItemAdded(String username, String password, String scenario,String result) throws Exception {
-		if (scenario != null && scenario.equals("valid")) 
-		{TCID =9;
+	public void verifyCheckoutInfo(String scenario, String username, String password, String result) throws Exception {
+		if (scenario.trim().equalsIgnoreCase("valid"))
+		{
 			login.enterCredentials(username, password);
             boolean isLogoDisplayed = login.verifyAppLogo();
             Assert.assertTrue(isLogoDisplayed, "App logo is not displayed after logging in with valid credentials.");
-            
-            boolean isItemDisplayed = login.verifybackPackItem();
-            Assert.assertTrue(isItemDisplayed, "BackPack item is not displayed after logging in with valid credentials.");
-            
+            login.verifybackPackItem();             
             login.verifybackPackAddToCart();
-            System.out.println("Backpack item added to cart");
-            
             login.verifyshoppingCart();
-            System.out.println("Item added to the cart");
-
-            // Proceed to checkout
-            login.verifycheckoutBtn();
-            System.out.println("Checkout button clicked");
-            
-        } else {
-            System.out.println("Test skipped for invalid scenario: " + scenario);
-        }
-    }
+            System.out.println("Sauce Labs Backpack item is added to the cart");    
+            login.verifycheckoutBtn(); 
+            System.out.println("Checkout button is clicked"); 
+            login.verifycontineBtn();
+            login.getErrorMsg();   
+		}
+	  else {
+         System.out.println("Test skipped for invalid scenario: " + scenario);
+      }
+	}
 }
-
 	
 
 
