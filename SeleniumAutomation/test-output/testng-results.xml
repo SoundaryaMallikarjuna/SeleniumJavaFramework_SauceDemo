@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-24T09:21:09 CEST" name="Default suite" finished-at="2025-04-24T09:22:00 CEST" duration-ms="51130">
+  <suite started-at="2025-04-24T13:37:49 CEST" name="Default suite" finished-at="2025-04-24T13:38:41 CEST" duration-ms="51855">
     <groups>
     </groups>
-    <test started-at="2025-04-24T09:21:09 CEST" name="Default test" finished-at="2025-04-24T09:22:00 CEST" duration-ms="51130">
+    <test started-at="2025-04-24T13:37:49 CEST" name="Default test" finished-at="2025-04-24T13:38:41 CEST" duration-ms="51855">
       <class name="tests.LoginPageTest">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:12 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:18 CEST" duration-ms="5785" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:37:52 CEST" name="initializeBrowser" finished-at="2025-04-24T13:37:57 CEST" duration-ms="5648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:18 CEST" name="setup" finished-at="2025-04-24T09:21:18 CEST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:37:57 CEST" name="setup" finished-at="2025-04-24T13:37:57 CEST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCheckoutInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:18 CEST" name="verifyCheckoutInfo" data-provider="credentials" finished-at="2025-04-24T09:21:20 CEST" duration-ms="1886" status="PASS">
+        <test-method signature="verifyCheckoutInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:37:57 CEST" name="verifyCheckoutInfo" data-provider="credentials" finished-at="2025-04-24T13:37:59 CEST" duration-ms="1929" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,26 +41,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutInfo -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:20 CEST" name="tearDown" finished-at="2025-04-24T09:21:20 CEST" duration-ms="469" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:37:59 CEST" name="tearDown" finished-at="2025-04-24T13:38:01 CEST" duration-ms="1201" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCheckoutInfo status=SUCCESS method=LoginPageTest.verifyCheckoutInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCheckoutInfo status=SUCCESS method=LoginPageTest.verifyCheckoutInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:21 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:24 CEST" duration-ms="2593" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:01 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:04 CEST" duration-ms="2724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:24 CEST" name="setup" finished-at="2025-04-24T09:21:24 CEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:04 CEST" name="setup" finished-at="2025-04-24T13:38:04 CEST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyItemAddedOrderPlaced(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:24 CEST" name="verifyItemAddedOrderPlaced" data-provider="credentials" finished-at="2025-04-24T09:21:26 CEST" duration-ms="2331" status="PASS">
+        <test-method signature="verifyItemAddedOrderPlaced(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:04 CEST" name="verifyItemAddedOrderPlaced" data-provider="credentials" finished-at="2025-04-24T13:38:06 CEST" duration-ms="2476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,26 +101,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemAddedOrderPlaced -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:26 CEST" name="tearDown" finished-at="2025-04-24T09:21:26 CEST" duration-ms="429" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:06 CEST" name="tearDown" finished-at="2025-04-24T13:38:07 CEST" duration-ms="633" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyItemAddedOrderPlaced status=SUCCESS method=LoginPageTest.verifyItemAddedOrderPlaced(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyItemAddedOrderPlaced status=SUCCESS method=LoginPageTest.verifyItemAddedOrderPlaced(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:27 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:30 CEST" duration-ms="2663" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:08 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:10 CEST" duration-ms="2646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:30 CEST" name="setup" finished-at="2025-04-24T09:21:30 CEST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:10 CEST" name="setup" finished-at="2025-04-24T13:38:10 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:30 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T09:21:31 CEST" duration-ms="814" status="PASS">
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:10 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T13:38:11 CEST" duration-ms="800" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,26 +146,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:31 CEST" name="tearDown" finished-at="2025-04-24T09:21:31 CEST" duration-ms="608" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:11 CEST" name="tearDown" finished-at="2025-04-24T13:38:12 CEST" duration-ms="577" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:31 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:34 CEST" duration-ms="2578" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:12 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:15 CEST" duration-ms="2669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:34 CEST" name="setup" finished-at="2025-04-24T09:21:34 CEST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:15 CEST" name="setup" finished-at="2025-04-24T13:38:15 CEST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:34 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T09:21:35 CEST" duration-ms="682" status="PASS">
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:15 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T13:38:15 CEST" duration-ms="759" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,26 +191,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:35 CEST" name="tearDown" finished-at="2025-04-24T09:21:35 CEST" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:15 CEST" name="tearDown" finished-at="2025-04-24T13:38:16 CEST" duration-ms="444" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:35 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:38 CEST" duration-ms="2500" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:16 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:18 CEST" duration-ms="2698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:38 CEST" name="setup" finished-at="2025-04-24T09:21:38 CEST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:18 CEST" name="setup" finished-at="2025-04-24T13:38:18 CEST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:38 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T09:21:38 CEST" duration-ms="724" status="PASS">
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:18 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T13:38:19 CEST" duration-ms="729" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -236,26 +236,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:38 CEST" name="tearDown" finished-at="2025-04-24T09:21:39 CEST" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:19 CEST" name="tearDown" finished-at="2025-04-24T13:38:20 CEST" duration-ms="440" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:39 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:42 CEST" duration-ms="3077" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:20 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:22 CEST" duration-ms="2783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:42 CEST" name="setup" finished-at="2025-04-24T09:21:42 CEST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:22 CEST" name="setup" finished-at="2025-04-24T13:38:22 CEST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:42 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T09:21:42 CEST" duration-ms="708" status="PASS">
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:22 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T13:38:23 CEST" duration-ms="730" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -281,26 +281,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:42 CEST" name="tearDown" finished-at="2025-04-24T09:21:43 CEST" duration-ms="521" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:23 CEST" name="tearDown" finished-at="2025-04-24T13:38:24 CEST" duration-ms="443" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:43 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:45 CEST" duration-ms="2399" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:24 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:26 CEST" duration-ms="2564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:45 CEST" name="setup" finished-at="2025-04-24T09:21:45 CEST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:26 CEST" name="setup" finished-at="2025-04-24T13:38:26 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:45 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T09:21:46 CEST" duration-ms="497" status="PASS">
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:26 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T13:38:27 CEST" duration-ms="512" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -326,26 +326,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:46 CEST" name="tearDown" finished-at="2025-04-24T09:21:46 CEST" duration-ms="446" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:27 CEST" name="tearDown" finished-at="2025-04-24T13:38:27 CEST" duration-ms="474" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:46 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:49 CEST" duration-ms="2629" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:27 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:30 CEST" duration-ms="2786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:49 CEST" name="setup" finished-at="2025-04-24T09:21:49 CEST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:30 CEST" name="setup" finished-at="2025-04-24T13:38:30 CEST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:49 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T09:21:49 CEST" duration-ms="380" status="PASS">
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:30 CEST" name="verifyLoginFunctionality" data-provider="credentials" finished-at="2025-04-24T13:38:30 CEST" duration-ms="267" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -363,80 +363,80 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginFunctionality -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:49 CEST" name="tearDown" finished-at="2025-04-24T09:21:50 CEST" duration-ms="658" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:30 CEST" name="tearDown" finished-at="2025-04-24T13:38:31 CEST" duration-ms="490" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginFunctionality status=SUCCESS method=LoginPageTest.verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:50 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:52 CEST" duration-ms="2382" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:31 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:33 CEST" duration-ms="2769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:52 CEST" name="setup" finished-at="2025-04-24T09:21:52 CEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:33 CEST" name="setup" finished-at="2025-04-24T13:38:33 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogo()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:52 CEST" name="verifyLogo" finished-at="2025-04-24T09:21:53 CEST" duration-ms="123" status="PASS">
+        <test-method signature="verifyLogo()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:33 CEST" name="verifyLogo" finished-at="2025-04-24T13:38:34 CEST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:53 CEST" name="tearDown" finished-at="2025-04-24T09:21:53 CEST" duration-ms="501" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:34 CEST" name="tearDown" finished-at="2025-04-24T13:38:34 CEST" duration-ms="435" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=LoginPageTest.verifyLogo()[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=LoginPageTest.verifyLogo()[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:53 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:55 CEST" duration-ms="2375" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:34 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:37 CEST" duration-ms="2571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:55 CEST" name="setup" finished-at="2025-04-24T09:21:55 CEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:37 CEST" name="setup" finished-at="2025-04-24T13:38:37 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:55 CEST" name="verifyPageTitle" finished-at="2025-04-24T09:21:55 CEST" duration-ms="36" status="PASS">
+        <test-method signature="verifyPageTitle()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:37 CEST" name="verifyPageTitle" finished-at="2025-04-24T13:38:37 CEST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:55 CEST" name="tearDown" finished-at="2025-04-24T09:21:56 CEST" duration-ms="663" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:37 CEST" name="tearDown" finished-at="2025-04-24T13:38:37 CEST" duration-ms="731" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPageTitle status=SUCCESS method=LoginPageTest.verifyPageTitle()[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPageTitle status=SUCCESS method=LoginPageTest.verifyPageTitle()[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:56 CEST" name="initializeBrowser" finished-at="2025-04-24T09:21:59 CEST" duration-ms="3338" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:37 CEST" name="initializeBrowser" finished-at="2025-04-24T13:38:40 CEST" duration-ms="2729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:59 CEST" name="setup" finished-at="2025-04-24T09:21:59 CEST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:40 CEST" name="setup" finished-at="2025-04-24T13:38:40 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyURL()[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:21:59 CEST" name="verifyURL" finished-at="2025-04-24T09:22:00 CEST" duration-ms="33" status="PASS">
+        <test-method signature="verifyURL()[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:40 CEST" name="verifyURL" finished-at="2025-04-24T13:38:40 CEST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyURL -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@6a2f6f80]" started-at="2025-04-24T09:22:00 CEST" name="tearDown" finished-at="2025-04-24T09:22:00 CEST" duration-ms="939" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@1c1bbc4e]" started-at="2025-04-24T13:38:40 CEST" name="tearDown" finished-at="2025-04-24T13:38:41 CEST" duration-ms="561" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyURL status=SUCCESS method=LoginPageTest.verifyURL()[pri:0, instance:tests.LoginPageTest@6a2f6f80] output={null}]]]>
+                <![CDATA[[TestResult name=verifyURL status=SUCCESS method=LoginPageTest.verifyURL()[pri:0, instance:tests.LoginPageTest@1c1bbc4e] output={null}]]]>
               </value>
             </param>
           </params>

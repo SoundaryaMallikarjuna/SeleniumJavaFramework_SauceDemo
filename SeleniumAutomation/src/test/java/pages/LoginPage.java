@@ -2,7 +2,9 @@ package pages;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -79,6 +81,21 @@ public class LoginPage extends BaseClass {
 			System.out.println("Password is null or empty");
 		}
 		loginbutton.click();
+		
+//		try {
+//            // Wait for the alert to be present
+//            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20)); 
+//            wait.until(ExpectedConditions.alertIsPresent());
+//
+//            Alert alert = driver.switchTo().alert();
+//            System.out.println("Alert text: " + alert.getText());
+//            alert.accept();  
+//        } catch (NoAlertPresentException e) {
+//            System.out.println("No alert present");
+//      } 
+//            finally {
+//            driver.quit();
+//        }
 	}
 
 	public String getErrorMsg() throws Exception {

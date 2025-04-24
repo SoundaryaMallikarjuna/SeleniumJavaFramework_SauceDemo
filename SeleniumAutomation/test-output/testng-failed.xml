@@ -6,9 +6,11 @@
       <class name="tests.LoginPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyCheckoutInfo"/>
-          <include name="setup"/>
+          <include name="verifyCheckoutInfo" invocation-numbers="0"/>
+          <include name="verifyItemAddedOrderPlaced" invocation-numbers="0"/>
           <include name="initializeBrowser"/>
+          <include name="setup"/>
+          <include name="verifyLoginFunctionality" invocation-numbers="0 1 2 3 4 5"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
     </classes>
