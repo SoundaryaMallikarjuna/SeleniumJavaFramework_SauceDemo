@@ -16,23 +16,24 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		
-		<maven.compiler.source>11</maven.compiler.source>
-  		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>23</maven.compiler.source>
+  		<maven.compiler.target>23</maven.compiler.target>
 	</properties>
 	
 	<build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version> <!-- Or the version you are using -->
-                <configuration>
-                    <source>11</source>
-                    <target>11</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.10.1</version> <!-- You can use a later version if needed -->
+            <configuration>
+                <source>23</source>
+                <target>23</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
 
 
 
