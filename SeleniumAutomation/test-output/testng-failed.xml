@@ -5,12 +5,15 @@
     <classes>
       <class name="tests.LoginPageTest">
         <methods>
+          <include name="verifyLogo"/>
+          <include name="verifyURL"/>
           <include name="tearDown"/>
           <include name="verifyCheckoutInfo" invocation-numbers="0"/>
-          <include name="verifyItemAddedOrderPlaced" invocation-numbers="0"/>
+          <include name="verifyItemAddedOrderPlaced"/>
           <include name="initializeBrowser"/>
           <include name="setup"/>
-          <include name="verifyLoginFunctionality" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="verifyLoginFunctionality"/>
+          <include name="verifyPageTitle"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
     </classes>
