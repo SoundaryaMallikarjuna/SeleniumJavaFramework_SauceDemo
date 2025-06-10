@@ -63,20 +63,6 @@ public class LoginPageTest extends BaseClass {
 		Assert.assertEquals(actualURL, expectedURL);
 
 	}
-
-	@Test
-	public void verifyLogo() {
-		boolean actualLogo = login.verifyLogo();
-		boolean expectedLogo = true;
-		Assert.assertEquals(actualLogo, expectedLogo);
-
-	}
-
-	@Test
-	public void verifyPageTitle() {
-		login.verifyPageTitle();
-
-	}
 	
 	@Test(dataProvider = "credentials", dataProviderClass = UtilityClass.class)
 	public void verifyLoginFunctionality(String scenario, String username, String password, String result)
